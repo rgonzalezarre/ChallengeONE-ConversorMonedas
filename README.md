@@ -7,3 +7,5 @@
   <img src="https://img.shields.io/badge/Status-Upgrading-red" alt="Status">
   <img src="https://img.shields.io/badge/Release%20date-june-blue" alt="Release date">
 </p>
+<h3>Objetivo.</h3>
+<p font-size=1000px>El objetivo del proyecto es implementar todos los conocimientos adquiridos en el curso de Alura LATAM DE Java orientado a objetos en un solo proyecto que sirve para convertir una cantidad especifica de dinero en las diferentes divisas del mundo</p>
