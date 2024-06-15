@@ -13,6 +13,19 @@
 <p>Este proyecto solo cuenta con una funcionalidad(Por el momento)
 </p>
 
-## Funcionalidad
-
 - Convertir una cantidad de dinero a un número limitado de divisas (USD, ARS, COP, BRL).
+
+<h3>Uso</h3>
+<p>- Para su uso se tiene que ingresar de primera mano una de las opciones disponibles para hacer cambio de monedas</p>
+<p>- Despues ingresar el monto de esa moneda a convertir</p>
+<p>- Finalmente el programa entregara el resultado en como una salida de impresion.</p>
+<h3>Estructura.</h3>
+<p>El programa consta de 3 clases:</p>
+
+- La primera (Principal), contiene el menu de opciones a demas de redirigirte a la funcion que se encarga de toda la logica de programacion.
+- La segunda (ConversorMonedas), como dije anteriormente, proporciona el como funciona todo el programa, contiene la creacion de archivos json a partir de una API, la creacion de un objeto con ese json y finalmente la operacion y manipulacion de datos para su posterior impresion.
+- La tercer y ultima clase (Moneda) guarda un objeto que guarda el nombre de la moneda y su valor de cambio a la moneda a la que se hara el cambio.
+<h3>Manejo de excepciones.</h3>
+<p>Basicamente el programa maneja excepciones de cuando se ingresan valores alfanumericos en vez de numeros y en el caso de las opciones iniciales, para cuando utilizas algo que no sea un valor entero.</p>
+<h3>Autor.</h3>
+<p>Este codigo, asi como la realizacion de esta documentacion es totalmente de mi autoria (Gonzalez Rafael)</p>
